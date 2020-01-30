@@ -1,3 +1,8 @@
+*{
+	margin:0;
+	padding:0;
+}
+
 html, body, h3{
 	padding:0;
 	margin:0;
@@ -10,6 +15,14 @@ h1, h2, h3, p{
 h1, .tagline{
 	color:#47a;
 }
+
+h3{
+	font-size:30pt;
+}
+
+p{
+ 	font-size:20pt;
+ }
 
 section{
 	display:grid;
@@ -44,6 +57,10 @@ section img{
 	max-width: 100%;
 }
 
+aside{
+	padding:0;
+}
+
 aside ul{
 	list-style-type:none;
 	margin:0;
@@ -53,11 +70,12 @@ aside ul{
 
 aside h3{
 	background-color: #47a;
-	padding:2em;
+	padding:1em 2em;
 	color:#fff;
 }
 
 aside a{
+	font-family: 'Bebas Neue', cursive;
 	text-decoration: none;
 	padding:2em;
 	display: block;
@@ -116,7 +134,6 @@ footer{
 	h1{font-size:2.6em;}
 
 	._article{
-		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
 
@@ -137,8 +154,8 @@ footer{
 		"kop kop kop"
 		"t1 t2 afb"
 		"t3 t4 afb"
-		"t3 t5 afb"
-		"aside t6 t6"
+		"t5 t5 afb"
+		"aside t6 afb"
 		"aside t7 t8"
 		"aside t9 t10"
 		"aside voet voet";
